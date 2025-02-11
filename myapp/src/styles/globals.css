@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  background-color: aquamarine;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+ 
+.logo {
+  margin-right: 0;
+  margin-left: auto;
+}
+ 
+.navGuys {
+  display: flex;
+  gap: 20px;
+}
+
+
+.formContainer{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formClass{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.form-group input{
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 12px;
+  color:black;
+  background-color: burlywood;
+  transition: all ease-in-out;
+  cursor: pointer;
+
+}
+
+.btn:hover{
+  background-color: brown;
+  color: white;
+}
+
+.formclass{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.userCard{
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+ 
